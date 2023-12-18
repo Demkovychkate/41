@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My41HW</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form class="heroes_form" id="heroesForm">
+        <label>
+            Name of your superhero <input type="text" placeholder="Write your superhero" data-name="heroName">
+        </label>
+        <label>
+            Comics: <select data-name="heroComics">
+                <option value="Marvel">Marvel</option>
+                <option value="DC">DC</option>
+            </select>
+        </label>
+        <label>
+            Favourite:
+            <div class="heroFavouriteInput">
+                <input type="checkbox" data-name="heroFavourite">
+            </div>
+        </label>
+
+        <button class="btn_add">Add Hero</button>
+    </form>
+
+    <table class="heroes_table" id="heroesTable">
+        <thead>
+            <tr>
+                <th>Name Surname</th>
+                <th>Comics</th>
+                <th>Favourite</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <label class="heroFavouriteInput">
+                        Favourite: <input type="checkbox">
+                    </label>
+                </td>
+                <td><button class="btn_delete">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

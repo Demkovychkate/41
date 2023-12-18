@@ -1,0 +1,60 @@
+body{
+	background-image: url(https://images6.alphacoders.com/705/705204.jpg);
+	background-size: cover;
+	font-family: Lobster;
+	color: white;
+}
+
+.heroes_form{
+	font-size: 30px;
+	margin-top: 20%;
+	align-items: center;
+	justify-content: center;
+	background:none;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.heroes_form label{
+	display: flex;
+	align-items: center;
+	margin-right: 15px;
+}
+
+
+.heroes_form input, .heroes_form select{
+	margin-left: 5px;
+}
+
+.heroes_table{
+	font-size: 25px;
+	border: none;
+	border-collapse: collapse;
+	align-items: center;
+	justify-content: center;
+	background:none;
+    display: flex;
+}
+
+th, td{
+	border: none;
+	padding: 5px 8px;
+}
+
+button{
+	background: #8EA7FF;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 40px;
+	color: white;
+	cursor: pointer;
+}
+
+label.heroFavouriteInput{
+	
+	display: flex;
+	align-items: center;
+}
+
